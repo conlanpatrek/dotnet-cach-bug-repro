@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <PackageOutputPath>../nupkg-build</PackageOutputPath>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>local-package</ToolCommandName>
+    <AssemblyName>local-package</AssemblyName>
+    <UseAppHost>true</UseAppHost>
+  </PropertyGroup>
+</Project>
+
